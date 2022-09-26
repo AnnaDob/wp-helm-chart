@@ -1,0 +1,12 @@
+pvc:
+  name: wp-pv-claim
+  storage: 20Gi
+
+service:
+  name: wordpress
+
+container:
+    image: wordpress:4.8-apache
+
+wordpressDbHost: wordpress-mysql
+wordpressDbPassword: admin123
