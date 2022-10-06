@@ -1,9 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ .Release.Name}}-wordpress
+  name: {{ .Release.Name }}-wordpress
   labels:
-    app: {{ .Release.Name}}-wordpress
+    app: {{ .Release.Name }}-wordpress
 spec:
   selector:
     matchLabels:
