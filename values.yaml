@@ -1,5 +1,4 @@
 pvc:
-  name: wp-pv-claim
   storage: 20Gi
 
 service:
